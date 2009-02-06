@@ -80,6 +80,7 @@ OPTS[:scanports].each do |port|
       cli.close
     else
       next
+      cli.close
     end
 
   rescue
