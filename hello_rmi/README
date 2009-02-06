@@ -1,0 +1,9 @@
+
+build with:
+$ javac HelloServer.java
+$ javac HelloClient.java
+$ rmic Hello
+
+run server with:
+$ rmiregistry &
+$ java HelloServer
