@@ -2,7 +2,7 @@
 # emonti@matasano.com 2008
 # Ghetto RMI port scanner. 
 # Takes a host and either range or list of ports as arguments.
-# Attempts to do an registry endpoint listing for any port that looks like RMI
+# Attempts to do a registry endpoint listing for any port that looks like RMI
 
 include Java
 import java.rmi.Naming
