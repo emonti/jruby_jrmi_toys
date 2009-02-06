@@ -2,6 +2,6 @@
 
 A set of JRuby-based tools for interacting with JRMI (Java Remote Method Invocation)
 
-You might be interested in reading a related blog post about using JRuby for pen-testing which highlights the rationale behind and use of these tools. See http://www.matasano.com/log/1399/ruby-for-pen-testers-jruby/
+Plug: You might be interested in reading a related blog post about using JRuby for pen-testing which highlights the use of these tools and the rationale behind them. See http://www.matasano.com/log/1399/ruby-for-pen-testers-jruby/
 
 
