@@ -73,16 +73,17 @@ OPTS[:scanports].each do |port|
     end
 
     rest = cli.read(len+4)
+    cli.close
 
     if rest.size == len+4
       puts "** Found a possible RMI endpoint at //#{host}:#{port}"
       hit=true
-      cli.close
     else
       next
-      cli.close
     end
 
+  rescue Errno::ECONNREFUSED
+    # nop
   rescue
     STDERR.puts "Port #{port} Err: #{$!}"
   ensure
